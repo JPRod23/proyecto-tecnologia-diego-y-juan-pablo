@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eef2f7;
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #2a9d8f;
+}
+
+h2 {
+    font-size: 2em;
+    color: #264653;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #264653;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #2a9d8f;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #e76f51;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #f4a261;
+}
+
+/* Estilos para las secciones */
+section {
+    display: none;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+section.active {
+    display: block;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #264653;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
